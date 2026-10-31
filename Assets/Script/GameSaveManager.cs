@@ -79,5 +79,6 @@ public class GameSaveManager : MonoBehaviour
         PlayerPrefs.DeleteAll();
         Debug.Log("All save data deleted");
         //I Love you
+        //555555555555
     }
 }
