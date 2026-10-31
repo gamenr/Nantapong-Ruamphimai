@@ -78,7 +78,5 @@ public class GameSaveManager : MonoBehaviour
     {
         PlayerPrefs.DeleteAll();
         Debug.Log("All save data deleted");
-        playerPrefs.Save();
-        nDebug.Log("PlayerPrefs saved after deletion");
     }
 }
